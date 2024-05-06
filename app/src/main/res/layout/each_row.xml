@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="5dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="5dp"
+    android:id="@+id/cvCardItem"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:orientation="horizontal">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivHeadingImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/news1"
+            android:layout_margin="10dp"
+            app:shapeAppearanceOverlay="@style/softCorner"/>
+
+        <TextView
+            android:id="@+id/tvHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jaishankar Slams Canada Over Arrest Of 3 Indians In Nijjar Case: Labels Allegations 'Vote-Bank Politics'"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

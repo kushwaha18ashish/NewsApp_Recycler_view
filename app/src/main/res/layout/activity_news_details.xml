@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".NewsDetailsActivity">
+    <ImageView
+        android:id="@+id/ivNewsImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/news1"
+        android:elevation="10dp"/>
+
+    <TextView
+        android:id="@+id/tvNewsDetailHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:text="Jaishankar Slams Canada Over Arrest Of 3 Indians In Nijjar Case: Labels Allegations 'Vote-Bank Politics'"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:id="@+id/tvNewsDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey2"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="hello"
+            />
+    </ScrollView>
+
+</LinearLayout>
